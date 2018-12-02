@@ -1,0 +1,66 @@
+/** primary **/
+$primary: #D90368;
+$primary-contrast: #fff;
+$primary-shade: darken($primary, 10%);
+$primary-tint: lighten($primary, 30%);
+
+/** secondary **/
+$secondary: #F75C03;
+$secondary-contrast: #000;
+$secondary-shade: darken($secondary, 10%);
+$secondary-tint: lighten($secondary, 30%);
+
+/** tertiary **/
+$tertiary: #2F5DBB;
+$tertiary-contrast: #fff;
+$tertiary-shade: darken($tertiary, 10%);
+$tertiary-tint: lighten($tertiary, 30%);
+
+/** success **/
+$success: #28a745;
+$success-contrast: #000;
+$success-shade: darken($success, 10%);
+$success-tint: lighten($success, 30%);
+
+/** warning **/
+$warning: #ffc107;
+$warning-contrast: #000;
+$warning-shade: darken($warning, 10%);
+$warning-tint: lighten($warning, 30%);
+
+/** danger **/
+$danger: #dc3545;
+$danger-contrast: #fff;
+$danger-shade: darken($danger, 10%);
+$danger-tint: lighten($danger, 30%);
+
+/** light **/
+$light: #f8f9fa;
+$light-contrast: #343a40;
+$light-shade: darken($light, 10%);
+$light-tint: lighten($light, 30%);
+
+/** dark **/
+$dark: #343a40;
+$dark-contrast: $light;
+$dark-shade: darken($dark, 10%);
+$dark-tint: lighten($dark, 30%);
+
+/** Shadow **/
+$shadow-z1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$shadow-z2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$shadow-z3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+$shadow-z4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+$shadow-z5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+/** Breaking Point **/
+$mobile-portrait: (min-width: 320px);
+$mobile-landscape: (min-width: 481px);
+$tablets: (min-width: 768px);
+$laptops: (min-width: 1025px);
+$desktops: (min-width: 1281px);
+
+/** Spaces and Padding **/
+$space-small: 8px;
+$space-medium: 16px;
+$space-large: 32px;

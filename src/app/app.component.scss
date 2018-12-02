@@ -1,0 +1,104 @@
+@import '../styles/variables.scss';
+
+section {
+    padding: $space-large
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: $dark;
+    background-image: linear-gradient(to right, $light, $dark, $light);
+    margin: $space-large;
+}
+
+.primary, .secondary, .tertiary,
+.success, .warning, .danger,
+.light, .dark,
+.shadow-card {
+    padding: $space-medium;
+    margin: $space-small;
+}
+
+.primary, .secondary, .tertiary,
+.success, .warning, .danger,
+.light, .dark {
+    border-top: 8px solid;
+    border-bottom: 8px solid;
+}
+
+.primary {
+    background: $primary;
+    color: $primary-contrast;
+    border-top-color: $primary-shade;
+    border-bottom-color: $primary-tint;
+}
+
+.secondary {
+    background: $secondary;
+    color: $secondary-contrast;
+    border-top-color: $secondary-shade;
+    border-bottom-color: $secondary-tint;
+}
+
+.tertiary {
+    background: $tertiary;
+    color: $tertiary-contrast;
+    border-top-color: $tertiary-shade;
+    border-bottom-color: $tertiary-tint;
+}
+
+.success {
+    background: $success;
+    color: $success-contrast;
+    border-top-color: $success-shade;
+    border-bottom-color: $success-tint;
+}
+
+.warning {
+    background: $warning;
+    color: $warning-contrast;
+    border-top-color: $warning-shade;
+    border-bottom-color: $warning-tint;
+}
+
+.danger {
+    background: $danger;
+    color: $danger-contrast;
+    border-top-color: $danger-shade;
+    border-bottom-color: $danger-tint;
+}
+
+.light {
+    background: $light;
+    color: $light-contrast;
+    border-top-color: $light-shade;
+    border-bottom-color: $light-tint;
+}
+
+.dark {
+    background: $dark;
+    color: $dark-contrast;
+    border-top-color: $dark-shade;
+    border-bottom-color: $dark-tint;
+}
+
+.shadow-z1 {
+    box-shadow: $shadow-z1;
+}
+
+.shadow-z2 {
+    box-shadow: $shadow-z2;
+}
+
+.shadow-z3 {
+    box-shadow: $shadow-z3;
+}
+
+.shadow-z4 {
+    box-shadow: $shadow-z4;
+}
+
+.shadow-z5 {
+    box-shadow: $shadow-z5;
+}
